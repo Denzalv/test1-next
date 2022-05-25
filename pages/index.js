@@ -11,14 +11,14 @@ export default function Upload() {
     });
 
     const upload = await fetch(url, {
-      method: 'POST',
+      method: "POST",
       body: formData,
     });
 
     if (upload.ok) {
-      console.log('Uploaded successfully!');
+      console.log("Uploaded successfully!");
     } else {
-      console.error('Upload failed.');
+      console.error("Upload failed.");
     }
   };
 
@@ -26,9 +26,9 @@ export default function Upload() {
     <>
       <p>Upload a Pdf (max 1MB).</p>
       <input
-        onClick={uploadPdf}
+        onChange={uploadPdf}
         type="file"
-        accept="image/png, image/jpeg"
+        accept="application/pdf"
       />
     </>
   );
