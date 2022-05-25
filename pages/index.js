@@ -28,7 +28,7 @@ export default function Upload() {
       <input
         onChange={uploadPdf}
         type="file"
-        accept="application/pdf"
+        accept="image/png, image/jpeg"
       />
     </>
   );
