@@ -26,7 +26,7 @@ export default function Upload() {
     <>
       <p>Upload a Pdf (max 1MB).</p>
       <input
-        onChange={uploadPdf}
+        onClick={uploadPdf}
         type="file"
         accept="image/png, image/jpeg"
       />
