@@ -1,3 +1,3 @@
-name: nextjs-gcp-storage
+name: test1-next 
 runtime: nodejs
 description: Example Next.js app to upload PDF to a GCP storage bucket.
